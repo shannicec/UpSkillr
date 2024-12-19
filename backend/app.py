@@ -109,4 +109,4 @@ def handle_custom_event(data):
 if __name__ == '__main__':
     # Ensure the app context is pushed for CLI operations
     with app.app_context():
-        socketio.run(app, debug=True, host='0.0.0.0', port=5000)  # Use socketio.run instead of app.run
+        socketio.run(app, debug=True, host='0.0.0.0', port=10000)  # Use socketio.run instead of app.run
